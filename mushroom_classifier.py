@@ -51,3 +51,8 @@ plt.xlabel('Model')
 plt.xticks(rotation=45)
 plt.tight_layout()
 plt.show()
+# Save the plot in the Results folder
+plt.savefig('Results/model_performance_comparison.png')
+
+# Show the plot
+plt.show()
