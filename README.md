@@ -29,7 +29,9 @@ python -m venv venv
 On Windows:
 
 .\venv\Scripts\activate
+
 On macOS/Linux:
+
 source venv/bin/activate
 
 Once activated, your terminal prompt should change to show (venv) indicating the environment is active.
@@ -43,6 +45,7 @@ pip install -r requirements.txt
 After the environment is set up and the dependencies are installed, run the main Python script:
 
 python mushroom_classifier.py
+
 This will execute the model training and evaluation and print out the results, including accuracy, precision, recall, and F1-score.
 
 Dependencies and Library Versions
@@ -57,6 +60,7 @@ matplotlib
 You can install them via:
 
 pip install -r requirements.txt
+
 Assumptions and Notes
 The dataset is clean, with no missing values and no need for imputation.
 
